@@ -33,11 +33,11 @@ module qspi_trial(
 			.sdram_wire_dqm      (SDRAM_DQM),
 			.sdram_wire_ras_n    (SDRAM_RAS_N),
 			.sdram_wire_we_n     (SDRAM_WE_N),
-			.sdram_clk_clk			(SDRAM_CLK),
+			.sdram_clk_clk			(SDRAM_CLK)/*,
 			  
 			.qspi_pins_dclk   	(QSPI_CLK),
 			.qspi_pins_ncs    	(QSPI_CS_N),
-			.qspi_pins_data   	(QSPI_IO)
+			.qspi_pins_data   	(QSPI_IO)*/
     );
 
 endmodule
